@@ -61,16 +61,16 @@ const skillsSection = {
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
-  
-    
+
+
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
     },
-  
-  
-    
-    
+
+
+
+
     {
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
@@ -79,7 +79,7 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "aws",
       fontAwesomeClassname: "fab fa-aws"
     },
-    
+
     {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
@@ -108,7 +108,7 @@ const educationInfo = {
         "Event Manager at Microsoft Learn Student Ambassador Lahore"
       ]
     }
-    
+
   ]
 };
 
@@ -145,7 +145,7 @@ const workExperiences = {
       date: "Sep 2023 - Present",
       desc: "Conducted End to End Testing of CRM - Trailer Centeral",
       descBullets: [
-       "Mannual Testing", "Automation Testing using Cypress"
+        "Mannual Testing", "Automation Testing using Cypress"
       ]
     },
     {
@@ -159,7 +159,7 @@ const workExperiences = {
         "Manual and Automation Testing",
         "API Testing using Python",
         "Jira Configuration"
-       ]
+      ]
     },
     {
       role: "Software Quality Assurance",
@@ -169,11 +169,11 @@ const workExperiences = {
       desc: "Conducted extensive end-to-end testing of VoyceAdmins Product across devices, browsers and user scnerios.Transulated designs into test cases for optimal coverage, collaborated with stakeholders, and delivered detailed test reports.",
       descBullets: [
         "Mannual Testing", "Automation Testing using Selenium(Python)"
-       ]
-    
-    
+      ]
+
+
     },
-    
+
     {
       role: "SQA Intern",
       company: "Afinti",
@@ -182,7 +182,7 @@ const workExperiences = {
       desc: "Conducted Manual Testing of AI-based Calling Product(Cisco WebX Application), resolving issues through cross-functional collaboratiom. Ensured software quality using bug tracking and black-box testing, exceeding functional and non-functional requirements.",
       descBullets: [
         "Mannual Testing", "Cross Browser Testing", "Bug Tracking and Reporting", "Black-Box Testing", "Functional Testing"
-       ]
+      ]
     }
   ]
 };
@@ -260,7 +260,7 @@ const achievementSection = {
           name: "Certification",
           url: "https://drive.google.com/file/d/1vOud_x6gASa32Vf36UWsC7RdfWkYvyJe/view?usp=sharing"
         }
-        
+
       ]
     },
     {
@@ -270,7 +270,7 @@ const achievementSection = {
       image: require("./assets/images/micorosoft.png"),
       imageAlt: "Microsoft Learn Student Ambassador Lahore",
       footerLink: [
-        
+
       ]
     },
 
@@ -280,8 +280,8 @@ const achievementSection = {
       image: require("./assets/images/fiverr_com_logo.png"),
       imageAlt: "PWA Logo",
       footerLink: [
-        {name: "Level 1 Fiverr Seller", url: "https://drive.google.com/file/d/1IPNjfO1T_DwTOCq9CANlZg8caKPe3K09/view?usp=sharing"}
-        
+        { name: "Level 1 Fiverr Seller", url: "https://drive.google.com/file/d/1IPNjfO1T_DwTOCq9CANlZg8caKPe3K09/view?usp=sharing" }
+
       ]
     }
   ],
@@ -291,22 +291,52 @@ const achievementSection = {
 // Blogs Section
 
 const blogSection = {
-  title: "Blogs",
+  title: "Services",
   subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
+    "Services Providing:",
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      url: "https://www.fiverr.com/kashirhasnain/design-uml-diagrams-use-case-class-sequence-dfd-er-erd-diagram",
+      title: "System Modeling",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+        "Unleash clarity and efficiency in your projects with comprehensive UML diagram services"
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
+      url: "https://www.fiverr.com/kashirhasnain/write-srs-or-professional-software-requirement-document",
+      title: "Software Requirement Specification Documentation",
       description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+        "Get Flawless Software Development & Documentation: Expert SRS, Use Cases, Testing & More!"
+    },
+    {
+      url: "https://www.fiverr.com/kashirhasnain/install-configure-jira-and-help-you-with-jira-tasks",
+      title: "JIRA Configuration",
+      description:
+        "Get set up for success with my expert JIRA installation, configuration, and training services."
+    },
+    {
+      url: "https://www.fiverr.com/kashirhasnain/do-web-and-mobile-application-qa-testing-and-report-bugs",
+      title: "Manual Testing",
+      description:
+        "Expert website & mobile app testing: Identify & fix issues with detailed reports & multi-device testing."
+    },
+    {
+      url: "https://www.fiverr.com/kashirhasnain/do-api-testing-with-rest-assured-postman-soapui",
+      title: "API Testing with Postman and SoapUI",
+      description:
+        "Ensure API Excellence: Expert testing for functionality, performance & reliability. Let's make your API soar!"
+    },
+    {
+      url: "https://www.fiverr.com/kashirhasnain/do-web-automation-using-selenium-python",
+      title: "Automation Testing using Selenium",
+      description:
+        "Automate the Web with Python & Selenium: Save Time & Effort on Testing"
+    },
+    {
+      url: "https://www.fiverr.com/kashirhasnain/automate-test-cases-using-selenium-cypress-and-playwright",
+      title: "Automation Testing using Cypress and Playwright",
+      description:
+        "Unleash Efficiency & Productivity: Expert Automation Solutions with Cypress.io, Selenium, & Playwright. Get a customized plan for your success."
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -328,7 +358,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -341,22 +371,22 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+92322-5801857",
+  email_address: "hasnainkashir6105@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
