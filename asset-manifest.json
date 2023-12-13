@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.3cf13eba.css",
-    "main.js": "/static/js/main.b602eab2.js",
+    "main.js": "/static/js/main.23f086ae.js",
     "static/css/64.bba8fa55.chunk.css": "/static/css/64.bba8fa55.chunk.css",
     "static/js/64.c7324c91.chunk.js": "/static/js/64.c7324c91.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/static/css/769.b3cbb36b.chunk.css",
@@ -13,14 +13,13 @@
     "static/media/micorosoft.png": "/static/media/micorosoft.3097af17393ffb672a7c.png",
     "static/media/contactMailDark.svg": "/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
     "static/media/developerActivity.svg": "/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
-    "static/media/airbnbLogo.png": "/static/media/airbnbLogo.e8497507db673acd3991.png",
     "static/media/cisco-removebg-preview.png": "/static/media/cisco-removebg-preview.2557c73f5ced0544c54d.png",
     "static/media/download-removebg-preview.png": "/static/media/download-removebg-preview.f4bce725f1c52be1b26d.png",
     "static/media/skill.svg": "/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.3cf13eba.css.map": "/static/css/main.3cf13eba.css.map",
-    "main.b602eab2.js.map": "/static/js/main.b602eab2.js.map",
+    "main.23f086ae.js.map": "/static/js/main.23f086ae.js.map",
     "64.bba8fa55.chunk.css.map": "/static/css/64.bba8fa55.chunk.css.map",
     "64.c7324c91.chunk.js.map": "/static/js/64.c7324c91.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/static/css/769.b3cbb36b.chunk.css.map",
@@ -28,6 +27,6 @@
   },
   "entrypoints": [
     "static/css/main.3cf13eba.css",
-    "static/js/main.b602eab2.js"
+    "static/js/main.23f086ae.js"
   ]
 }
