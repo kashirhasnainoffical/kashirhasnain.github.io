@@ -177,7 +177,7 @@ const workExperiences = {
     {
       role: "SQA Intern",
       company: "Afinti",
-      companylogo: require("./assets/images/airbnbLogo.png"),
+      companylogo: require("./assets/images/afiniti_com_logo.png"),
       date: "Aug 2020 – Oct 2020",
       desc: "Conducted Manual Testing of AI-based Calling Product(Cisco WebX Application), resolving issues through cross-functional collaboratiom. Ensured software quality using bug tracking and black-box testing, exceeding functional and non-functional requirements.",
       descBullets: [
