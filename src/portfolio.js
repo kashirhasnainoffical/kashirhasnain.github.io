@@ -100,8 +100,8 @@ const educationInfo = {
     {
       schoolName: "Comsats University Islamabad, Attock Campus",
       logo: require("./assets/images/comsats.jpg"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
+      subHeader: "Bachelor of Science in Software Engineering (BSSE)",
+      duration: "September 2018 - June 2022",
       desc: "",
       descBullets: [
         "Core Team Member at Google Developer Student Club",
@@ -139,29 +139,50 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Associate SQA Engineer",
+      company: "Ultracodes",
+      companylogo: require("./assets/images/ultra_codes_logo.png"),
+      date: "Sep 2023 - Present",
+      desc: "Conducted End to End Testing of CRM - Trailer Centeral",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+       "Mannual Testing", "Automation Testing using Cypress"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Level 1 Seller",
+      company: "Fiverr",
+      companylogo: require("./assets/images/fiverr_com_logo.png"),
+      date: "Sep 2021 – Present",
+      desc: "🌐 Fiverr.com/kashirhasnain",
+      descBullets: [
+        "Comprehensive Requirements Analysis, Software Design Documentation and SRS",
+        "Manual and Automation Testing",
+        "API Testing using Python",
+        "Jira Configuration"
+       ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
+      role: "Software Quality Assurance",
+      company: "Noveltysoft",
+      companylogo: require("./assets/images/novelty.png"),
+      date: "Dec 2022 – Sep 2023",
+      desc: "Conducted extensive end-to-end testing of VoyceAdmins Product across devices, browsers and user scnerios.Transulated designs into test cases for optimal coverage, collaborated with stakeholders, and delivered detailed test reports.",
+      descBullets: [
+        "Mannual Testing", "Automation Testing using Selenium(Python)"
+       ]
+    
+    
+    },
+    
+    {
+      role: "SQA Intern",
+      company: "Afinti",
       companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      date: "Aug 2020 – Oct 2020",
+      desc: "Conducted Manual Testing of AI-based Calling Product(Cisco WebX Application), resolving issues through cross-functional collaboratiom. Ensured software quality using bug tracking and black-box testing, exceeding functional and non-functional requirements.",
+      descBullets: [
+        "Mannual Testing", "Cross Browser Testing", "Bug Tracking and Reporting", "Black-Box Testing", "Functional Testing"
+       ]
     }
   ]
 };
@@ -171,35 +192,47 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Projects",
+  subtitle: "Projects Related to SQA",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/trailercentral-footer.png"),
+      projectName: "CRM - Trailer Centeral",
+      projectDesc: "Trailer CENTRAL optimizes online inventory management and customer relationships with a platform that simplifies inventory updates across channels, boosts web traffic & lead conversions, and manages leads efficiently for higher close rates. They also offer website design & development to maximize online presence and drive lead growth.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://www.trailercentral.com/"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/voyceadmins.png"),
+      projectName: "VoyceAdmins",
+      projectDesc: "VoyceAdmins: AI-enabled IVR solution with advanced switching. Local machine learning enhances caller connectivity, voice, and DTMF guidance, elevating service quality and capabilities beyond regular auto-attendance.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://voyceadmins.com/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/cisco-removebg-preview.png"),
+      projectName: "Cisco WebX Application",
+      projectDesc: "Cisco Webex: Cloud-based communication & collaboration platform, offering video conferencing, web meetings, file sharing, and messaging. Ideal for remote work, enabling collaboration from anywhere, anytime, on any device.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://www.webex.com/"
         }
       ]
     }
@@ -213,55 +246,42 @@ const bigProjects = {
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "Achievements, Certifications, Award Letters and Some Cool Stuff!",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Google Developer Student Club",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+        "Core Team Member @GDSC CUI Attock",
+      image: require("./assets/images/download-removebg-preview.png"),
+      imageAlt: "Google Developer Student Club",
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          url: "https://drive.google.com/file/d/1vOud_x6gASa32Vf36UWsC7RdfWkYvyJe/view?usp=sharing"
         }
+        
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Microsoft Learn Student Ambassador Lahore",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+        "Managed Event TechTehwar 2.0",
+      image: require("./assets/images/micorosoft.png"),
+      imageAlt: "Microsoft Learn Student Ambassador Lahore",
       footerLink: [
-        {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
+        
       ]
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
+      title: "Fiverr",
+      subtitle: "Level 1 Seller",
+      image: require("./assets/images/fiverr_com_logo.png"),
       imageAlt: "PWA Logo",
       footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
+        {name: "Level 1 Fiverr Seller", url: "https://drive.google.com/file/d/1IPNjfO1T_DwTOCq9CANlZg8caKPe3K09/view?usp=sharing"}
+        
       ]
     }
   ],
