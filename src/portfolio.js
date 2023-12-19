@@ -26,7 +26,7 @@ const greeting = {
     "Experienced Quality Assurance Engineer esuring excellence: Expert in Mannual and Automation Testing, Bug Tracking and API Testing"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/17w4HeGBhzGJWhoRzjL3zHVUwqVW3hnxj/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1h3odXl8sBceiWrdlYVxxwmVRuV9AUR6Y/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
