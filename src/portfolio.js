@@ -145,7 +145,7 @@ const workExperiences = {
       date: "Sep 2023 - Present",
       desc: "Conducted End to End Testing of CRM - Trailer Centeral",
       descBullets: [
-        "Mannual Testing", "Automation Testing using Cypress"
+        "Worked on CRM - Trailer Centeral Project", "Automation Testing using Cypress", "API Testing using Postman"
       ]
     },
     {
@@ -168,22 +168,13 @@ const workExperiences = {
       date: "Dec 2022 – Sep 2023",
       desc: "Conducted extensive end-to-end testing of VoyceAdmins Product across devices, browsers and user scnerios.Transulated designs into test cases for optimal coverage, collaborated with stakeholders, and delivered detailed test reports.",
       descBullets: [
-        "Mannual Testing", "Automation Testing using Selenium(Python)"
+        "Worked on VoyceAdmins - an AI based IVR Solution","Performed Functional Testing of Ecommerce Store (TechPanda.pk)", "Automation Testing using Selenium(Python)"
       ]
 
 
     },
 
-    {
-      role: "SQA Intern",
-      company: "Afinti",
-      companylogo: require("./assets/images/afiniti_com_logo.png"),
-      date: "Aug 2020 – Oct 2020",
-      desc: "Conducted Manual Testing of AI-based Calling Product(Cisco WebX Application), resolving issues through cross-functional collaboratiom. Ensured software quality using bug tracking and black-box testing, exceeding functional and non-functional requirements.",
-      descBullets: [
-        "Mannual Testing", "Cross Browser Testing", "Bug Tracking and Reporting", "Black-Box Testing", "Functional Testing"
-      ]
-    }
+  
   ]
 };
 
